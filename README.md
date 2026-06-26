@@ -9,7 +9,7 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
 
 - **Object Literal** 📎
   <p align="justify">
-    Digunakan untuk data sederhana & statis
+    Digunakan untuk data sederhana & statis.
   </p>
   
   ```js
@@ -25,7 +25,7 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
 
 - **Keyword New Object()** 📎
   <p align="justify">
-      Digunakan untuk gaya lama dan library / framework jadul
+      Digunakan untuk gaya lama dan library / framework jadul.
   </p>
   
   ```js
@@ -42,7 +42,7 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
 
 - **Constructor Function** 📎
   <p align="justify">
-      Digunakan untuk buat banyak object dengan struktur sama
+      Digunakan untuk buat banyak object dengan struktur sama.
   </p>
   
   ```js
