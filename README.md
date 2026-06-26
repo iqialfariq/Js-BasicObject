@@ -20,8 +20,8 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
     warna: "Merah"
   };
   
-  console.log(mobil.brand);
-  console.log(mobil["tahun"]);
+  console.log(mobil.brand); // Toyota
+  console.log(mobil["tahun"]); // Supra
 
 - **Keyword New Object()** 📎
   <p align="justify">
@@ -33,11 +33,12 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
   const person = new Object();
   
   // tambahin property manual
-  person.nama = "Risqi";
+  person.nama = "Dani";
   person.umur = 25;
   person.kota = "Jakarta";
   
   console.log(person);
+  // { nama: 'Dani', umur: 25, kota: 'Jakarta' }
 
 - **Constructor Function** 📎
   <p align="justify">
@@ -58,7 +59,7 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
   const mhs1 = new Mahasiswa("Dani", "Informatika");
   const mhs2 = new Mahasiswa("Dina", "Desain");
   
-  console.log(mhs1.sapa()); // Halo, saya Risqi dari jurusan Informatika
+  console.log(mhs1.sapa()); // Halo, saya Dani dari jurusan Informatika
   console.log(mhs2.sapa()); // Halo, saya Dina dari jurusan Desain
 
 - **Class (ES6)** 📎
@@ -81,10 +82,10 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
   }
   
   // Membuat object dari class
-  const mhs1 = new Mahasiswa("Risqi", "Informatika");
+  const mhs1 = new Mahasiswa("Dani", "Informatika");
   const mhs2 = new Mahasiswa("Dina", "Desain");
   
-  console.log(mhs1.sapa()); // Halo, saya Risqi dari jurusan Informatika
+  console.log(mhs1.sapa()); // Halo, saya Dani dari jurusan Informatika
   console.log(mhs2.sapa()); // Halo, saya Dina dari jurusan Desain
   
 - **Object.create()** 📎
@@ -126,8 +127,8 @@ Object adalah struktur data yang menyimpan pasangan key dan value. Object bisa b
   }
   
   // bikin object baru dari factory function
-  const mhs1 = buatMahasiswa("Risqi", "Informatika");
+  const mhs1 = buatMahasiswa("Dani", "Informatika");
   const mhs2 = buatMahasiswa("Dina", "Desain");
   
-  console.log(mhs1.sapa()); // Halo, saya Risqi dari jurusan Informatika
+  console.log(mhs1.sapa()); // Halo, saya Dani dari jurusan Informatika
   console.log(mhs2.sapa()); // Halo, saya Dina dari jurusan Desain
